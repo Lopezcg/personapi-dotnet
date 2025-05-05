@@ -12,6 +12,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>@Html.DisplayNameFor(model => model.First().Cc)</th>
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
@@ -30,6 +31,7 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>@Html.DisplayFor(modelItem => item.Cc)</td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
