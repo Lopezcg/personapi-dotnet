@@ -1,0 +1,35 @@
+# 📘 Laboratorio 1: `personapi-dotnet`
+
+ Arquitectura Monolítica con MVC y DAO
+
+---
+
+## 📌 Descripción
+
+`personapi-dotnet` es una aplicación web monolítica desarrollada con ASP.NET Core MVC y Entity Framework Core.  
+Implementa una API REST y una interfaz con vistas Razor para la gestión de personas, profesiones, teléfonos y estudios.  
+El proyecto sigue el patrón **MVC con arquitectura en capas (DAO)**, usando SQL Server como base de datos relacional.
+
+---
+
+## 🧰 Stack utilizado
+
+| Componente       | Versión / Tecnología                  |
+|------------------|----------------------------------------|
+| Framework        | .NET 6.0 (sin autenticación, sin HTTPS)|
+| Lenguaje         | C#                                     |
+| DBMS             | SQL Server 2019 Express                |
+| ORM              | Entity Framework Core 6.0             |
+| Frontend         | Razor Views (MVC tradicional)         |
+| API              | REST con Swagger 3                     |
+| IDE              | Visual Studio Community 2022          |
+
+---
+
+## ⚙️ Configuración del ambiente
+
+### 1. Clona el repositorio:
+
+   git clone https://github.com/tu_usuario/personapi-dotnet.git
+   cd personapi-dotnet
+### 
